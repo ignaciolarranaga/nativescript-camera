@@ -150,13 +150,13 @@ export var takePicture = function (options): Promise<any> {
         let sourceType;
         switch (options.sourceType) {
             case "PhotoLibrary":
-                console.log("Choosing PhotoLibrary");
+                //console.log("Choosing PhotoLibrary");
                 sourceType = UIImagePickerControllerSourceType.PhotoLibrary; break;
             case "SavedPhotosAlbum":
-                console.log("Choosing SavedPhotosAlbum");
+                //console.log("Choosing SavedPhotosAlbum");
                 sourceType = UIImagePickerControllerSourceType.SavedPhotosAlbum; break;
             case "Camera": default:
-                console.log("Choosing Camera");
+                //console.log("Choosing Camera");
                 sourceType = UIImagePickerControllerSourceType.Camera; break;
         }
         let mediaTypes = UIImagePickerController.availableMediaTypesForSourceType(sourceType);
