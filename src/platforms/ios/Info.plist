@@ -7,6 +7,6 @@
     <key>NSCameraUsageDescription</key>
     <string>Requires access to camera.</string>
     <key>NSMicrophoneUsageDescription</key>
-    <string>Requires access to the microphone.</string>
+    <string>Requires access to microphone.</string>
 </dict>
 </plist>
