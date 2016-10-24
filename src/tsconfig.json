@@ -8,8 +8,8 @@
         "sourceMap": false,
         "declaration": false,
         "noLib": false,
-        "noImplicitUseStrict": true,
         "experimentalDecorators": true,
+        "noEmitHelpers": true,
         "lib": [
             "es2016"
         ]
